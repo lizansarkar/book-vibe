@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Header = () => {
   return (
@@ -22,20 +23,19 @@ const Header = () => {
             </div>
             {/* Desktop Menu - Centered */}
             <div className="flex-none hidden md:flex justify-center flex-grow">
-              <ul className="menu menu-horizontal">
-                <li><a>Home</a></li>
-                <li><a>Shop</a></li>
-                <li><a>Shop</a></li>
-                <li><a>Shop</a></li>
-                <li><a>Shop</a></li>
-                <li><a>Shop</a></li>
+              <ul className="menu menu-horizontal gap-5">
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/shop">Shop Now</Link>
+                <Link to="/blog">Blog</Link>
+                <Link to="/contact">Contact</Link>
               </ul>
             </div>
             {/* Search and Profile */}
             <div className="flex-none gap-2">
               <input
                 type="text"
-                placeholder="Search"
+                placeholder="Search Books"
                 className="input input-bordered w-48 md:w-48 mr-2"
               />
               <div className="dropdown dropdown-end">

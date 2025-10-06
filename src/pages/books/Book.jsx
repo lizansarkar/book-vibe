@@ -1,16 +1,15 @@
 import { FaStar } from "react-icons/fa";
+import { Link } from "react-router";
 
 const Book = ({ book }) => {
-  console.log(book);
 
   return (
     <div>
-      {
+      <Link to={`/bookdetails/${book.bookId}`}>
         <div
           key={book.bookId}
           className="card bg-base-100 shadow-xl transition-all duration-300 hover:shadow-2xl hover:scale-[1.02]"
         >
-
           {/* Book Image Section */}
           <figure className="px-5 pt-5 pb-2 bg-[#eeeeee] rounded-t-xl">
             {/* ছবির সাইজ ঠিক রাখার জন্য w-full h-48 object-contain ক্লাস ব্যবহার করা হয়েছে */}
@@ -55,9 +54,8 @@ const Book = ({ book }) => {
               </div>
             </div>
           </div>
-
         </div>
-      }
+      </Link>
     </div>
   );
 };

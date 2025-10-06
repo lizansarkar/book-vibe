@@ -117,7 +117,7 @@
     "yearOfPublishing": 2015
   },
   {
-    "bookId": 7,
+    "bookId": 10,
     "bookName": "Harry Potter's Stone",
     "author": "J.K. Rowling",
     "image": "https://i.ibb.co.com/989qMRW/42844155.jpg",
@@ -130,7 +130,7 @@
     "yearOfPublishing": 1997
   },
   {
-    "bookId": 8,
+    "bookId": 11,
     "bookName": "The Alchemist",
     "author": "Paulo Coelho",
     "image": "https://i.ibb.co.com/0cv102J/To-Kill-a-Mockingbird.webp",
