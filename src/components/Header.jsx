@@ -19,7 +19,7 @@ const Header = () => {
             </div>
             {/* Logo Name */}
             <div className="flex-1">
-              <a className="text-xl font-bold">Book Vibe</a>
+              <a href="/" className="text-xl font-bold">Book Vibe</a>
             </div>
             {/* Desktop Menu - Centered */}
             <div className="flex-none hidden md:flex justify-center flex-grow">

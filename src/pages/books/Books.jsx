@@ -4,7 +4,7 @@ import Book from "./Book";
 const Books = ({ data }) => {
 //   const [books, setBooks] = useState([]);
   return (
-    <div className="py-4 max-w-[1200px] mx-auto">
+    <div className="py-4 max-w-[1200px] mx-auto px-4">
       <h2 className="text-4xl font-bold text-center my-8 text-gray-800">
         Books
       </h2>
